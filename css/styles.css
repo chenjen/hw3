@@ -1,0 +1,48 @@
+@import  url(http://fonts.googleapis.com/css?family=Cutive);
+@import  url(http://fonts.googleapis.com/css?family=Puritan:400,700,400italic,700italic);
+
+body {
+    font-family: 'Puritan', sans-serif;
+    font-size: 20px;
+    color: #445164;
+    background-image: url(../img/ricepaper_v3.png);
+}
+
+h1, h2, h3,h4 {
+    font-family: 'Puritan', sans-serif;
+}
+
+nav {
+	float: left;
+	font-family: 'Puritan', sans-serif;
+}
+
+.small {
+    float:right;
+}
+
+.dawg{
+    color:#6a237e;
+    font-size: 200%;
+}
+
+@media screen and (max-width: 767px) {
+   .carousel {
+                display: none;
+        } 
+    .video {
+        display: none;
+    }
+    body {
+        font-size: 16px;
+    }
+}
+
+.video {
+	float: right;
+}
+
+:focus {
+    outline: red thick solid 2px;
+    background-color: #FFF700;
+}
